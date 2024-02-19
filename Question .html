@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS interview Question</title>
+</head>
+<body>
+
+    
+
+
+    <script>
+
+                // Cloures
+                // lexical scope is also called
+                // Lexical scope is the ability for a function scope to access variables from the parent scope. We call the child function to be lexically bound by that of the parent function. The diagram below outlines the supposed hierarchy that the lexical scope maintains in JavaScript
+//  function scop(a,b){
+// let c=5
+//     return{
+//         getSum:function()
+//         {
+//             return a+b+c;
+//         }
+//     }
+//  }
+//  let nam1=scop(12,20)
+// console.log(nam1)
+// console.log(nam1.getSum())
+
+
+                               // second method
+
+// function scop(a,b,c){
+ 
+//     function ahmad(){
+//     return a+b+c;
+//     }
+//      return ahmad;
+
+// //     this is a issue in this we can only one function can access
+
+// }
+// let nam1=scop(10,20,30)
+// console.log(nam1())
+
+// function hooks(a)
+// {
+// if(typeof a=="number")
+// console.log(a)
+// else{
+//     console.log("not number")
+// }
+// }
+
+// hooks(10)
+// // convert string into number
+// let abc="7123"
+// let numberData=Number(abc)
+// console.log(numberData)
+
+// map
+// let data=[12,30,2];
+// data.map((data)=>{
+//     console.log(data*2)
+// })
+
+
+//                  // reduce
+// let data=[
+//     {price:300},
+//     {price:200},
+//     {price:100},
+// ];
+// let total=0;
+//  total=data.reduce((arData,currentData)=>{
+//     return arData+currentData.price;
+// },0)
+// console.log(total)
+// let data=[];
+// for(let i=0;i<2;i++)
+// {
+// let input=prompt("Enter value");
+// let name=prompt("Enter name");
+// let object={
+//     inputData:input,
+//     nameData:name
+// }
+// data.push(object)
+// }
+// console.log(data)
+
+
+
+
+</script>
+</body>
+</html>
